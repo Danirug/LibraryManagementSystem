@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59f7a50c-49b6-4202-9647-2b97b1d83c46" name="Changes" comment="feat: add in-memory data store with sample data">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/AlertUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/AlertUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/SceneManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/SceneManager.java" afterDir="false" />
+    <list default="true" id="59f7a50c-49b6-4202-9647-2b97b1d83c46" name="Changes" comment="feat: add scene navigation and alert utilities">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/Validator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1790832248849</updated>
       <workItem from="1790832249871" duration="973000" />
-      <workItem from="1790833326432" duration="5078000" />
+      <workItem from="1790833326432" duration="5127000" />
     </task>
     <task id="LOCAL-00001" summary="chore: initialize JavaFX Maven project.">
       <option name="closed" value="true" />
@@ -133,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790836525516</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: add scene navigation and alert utilities">
+      <option name="closed" value="true" />
+      <created>1790844657647</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1790844657647</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +160,8 @@
     <MESSAGE value="cfeat: add book, member and borrow record models" />
     <MESSAGE value="feat: add book, member and borrow record models" />
     <MESSAGE value="feat: add in-memory data store with sample data" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add in-memory data store with sample data" />
+    <MESSAGE value="feat: add scene navigation and alert utilities" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add scene navigation and alert utilities" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
