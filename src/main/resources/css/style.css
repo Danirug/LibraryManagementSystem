@@ -1,0 +1,118 @@
+/* ================= Global ================= */
+.root {
+    -fx-font-family: "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+    -fx-font-size: 13px;
+    -fx-accent: #2563eb;
+    -fx-focus-color: #2563eb;
+    -fx-faint-focus-color: rgba(37, 99, 235, 0.15);
+    -fx-background-color: #f1f5f9;
+}
+.page          { -fx-spacing: 16; }
+.section-title { -fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: #1e293b; }
+.form-label    { -fx-text-fill: #334155; -fx-font-weight: bold; }
+.muted-label   { -fx-text-fill: #64748b; }
+.error-label   { -fx-text-fill: #dc2626; }
+
+/* ================= Inputs ================= */
+.text-field, .password-field, .combo-box, .date-picker {
+    -fx-pref-height: 34px;
+}
+/* Added from code to highlight invalid fields in red */
+.input-error {
+    -fx-text-box-border: #dc2626;
+    -fx-outer-border: #dc2626;
+    -fx-focus-color: #dc2626;
+}
+
+/* ================= Buttons ================= */
+.primary-button, .secondary-button, .danger-button {
+    -fx-background-radius: 6;
+    -fx-padding: 8 18;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+.primary-button         { -fx-background-color: #2563eb; -fx-text-fill: white; }
+.primary-button:hover   { -fx-background-color: #1d4ed8; }
+.secondary-button       { -fx-background-color: #e2e8f0; -fx-text-fill: #1e293b; }
+.secondary-button:hover { -fx-background-color: #cbd5e1; }
+.danger-button          { -fx-background-color: #dc2626; -fx-text-fill: white; }
+.danger-button:hover    { -fx-background-color: #b91c1c; }
+
+/* ================= Login ================= */
+.login-root {
+    -fx-background-color: linear-gradient(to bottom right, #1e3a8a, #2563eb);
+}
+.login-card {
+    -fx-background-color: white;
+    -fx-background-radius: 12;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 24, 0, 0, 6);
+}
+.login-title    { -fx-font-size: 22px; -fx-font-weight: bold; -fx-text-fill: #1e293b; }
+.login-subtitle { -fx-font-size: 14px; -fx-text-fill: #64748b; }
+
+/* ================= Dashboard ================= */
+.sidebar {
+    -fx-background-color: #1e293b;
+    -fx-padding: 20 12 20 12;
+    -fx-spacing: 6;
+}
+.sidebar-title {
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 18 10;
+}
+.sidebar-button, .logout-button {
+    -fx-background-color: transparent;
+    -fx-font-size: 14px;
+    -fx-alignment: center-left;
+    -fx-padding: 10 14;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+.sidebar-button         { -fx-text-fill: #cbd5e1; }
+.sidebar-button:hover   { -fx-background-color: #334155; -fx-text-fill: white; }
+.sidebar-button.active  { -fx-background-color: #2563eb; -fx-text-fill: white; }
+.logout-button          { -fx-text-fill: #fca5a5; }
+.logout-button:hover    { -fx-background-color: #7f1d1d; -fx-text-fill: white; }
+
+.header {
+    -fx-background-color: white;
+    -fx-padding: 16 24;
+    -fx-spacing: 12;
+    -fx-border-color: transparent transparent #e2e8f0 transparent;
+}
+.page-title   { -fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: #1e293b; }
+.content-area { -fx-padding: 24; }
+
+/* ================= Cards ================= */
+.form-card, .stat-card {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-padding: 24;
+    -fx-effect: dropshadow(gaussian, rgba(15, 23, 42, 0.08), 12, 0, 0, 2);
+}
+.stat-card  { -fx-padding: 20; -fx-spacing: 6; }
+.stat-title { -fx-font-size: 14px; -fx-text-fill: #64748b; }
+.stat-value { -fx-font-size: 32px; -fx-font-weight: bold; }
+#lblTotalBooks   { -fx-text-fill: #2563eb; }
+#lblTotalMembers { -fx-text-fill: #16a34a; }
+#lblBorrowed     { -fx-text-fill: #d97706; }
+#lblOverdue      { -fx-text-fill: #dc2626; }
+
+/* ================= Tables ================= */
+.table-view {
+    -fx-background-color: white;
+    -fx-background-radius: 8;
+    -fx-border-color: #e2e8f0;
+    -fx-border-radius: 8;
+}
+.table-view .column-header-background,
+.table-view .column-header { -fx-background-color: #f8fafc; }
+.table-view .column-header .label { -fx-font-weight: bold; -fx-text-fill: #334155; }
+.table-row-cell { -fx-cell-size: 34px; }
+
+/* Status colours (tables and the Return page) */
+.status-borrowed { -fx-text-fill: #d97706; -fx-font-weight: bold; }
+.status-returned { -fx-text-fill: #16a34a; -fx-font-weight: bold; }
+.status-overdue  { -fx-text-fill: #dc2626; -fx-font-weight: bold; }
