@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane prefHeight="720.0" prefWidth="1150.0" stylesheets="@../css/style.css"
+            xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.library.DashboardController">
+   <left>
+      <VBox fx:id="sidebar" prefWidth="220.0" styleClass="sidebar">
+         <children>
+            <Label styleClass="sidebar-title" text="Library MS" />
+            <Button fx:id="btnHome" maxWidth="1.7976931348623157E308" onAction="#showHome"
+                    styleClass="sidebar-button" text="Dashboard" />
+            <Button fx:id="btnAddBook" maxWidth="1.7976931348623157E308" onAction="#showAddBook"
+                    styleClass="sidebar-button" text="Add Book" />
+            <Button fx:id="btnAddMember" maxWidth="1.7976931348623157E308" onAction="#showAddMember"
+                    styleClass="sidebar-button" text="Add Member" />
+            <Button fx:id="btnManageMembers" maxWidth="1.7976931348623157E308" onAction="#showManageMembers"
+                    styleClass="sidebar-button" text="Manage Members" />
+            <Button fx:id="btnIssueBook" maxWidth="1.7976931348623157E308" onAction="#showIssueBook"
+                    styleClass="sidebar-button" text="Issue Book" />
+            <Button fx:id="btnReturnBook" maxWidth="1.7976931348623157E308" onAction="#showReturnBook"
+                    styleClass="sidebar-button" text="Return Book" />
+            <Button fx:id="btnHistory" maxWidth="1.7976931348623157E308" onAction="#showHistory"
+                    styleClass="sidebar-button" text="Borrowing History" />
+            <Pane VBox.vgrow="ALWAYS" />
+            <Button fx:id="btnLogout" maxWidth="1.7976931348623157E308" onAction="#handleLogout"
+                    styleClass="logout-button" text="Logout" />
+         </children>
+      </VBox>
+   </left>
+   <top>
+      <HBox alignment="CENTER_LEFT" styleClass="header">
+         <children>
+            <Label fx:id="lblPageTitle" styleClass="page-title" text="Dashboard" />
+            <Pane HBox.hgrow="ALWAYS" />
+            <Label styleClass="muted-label" text="Logged in as: admin" />
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <StackPane fx:id="contentArea" styleClass="content-area" />
+   </center>
+</BorderPane>

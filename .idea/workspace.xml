@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59f7a50c-49b6-4202-9647-2b97b1d83c46" name="Changes" comment="feat: add input validation helpers">
+    <list default="true" id="59f7a50c-49b6-4202-9647-2b97b1d83c46" name="Changes" comment="chore: restructure project folders and module configuration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/DashboardController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/view/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/Login.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1790832248849</updated>
       <workItem from="1790832249871" duration="973000" />
-      <workItem from="1790833326432" duration="7101000" />
+      <workItem from="1790833326432" duration="8452000" />
     </task>
     <task id="LOCAL-00001" summary="chore: initialize JavaFX Maven project.">
       <option name="closed" value="true" />
@@ -149,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790844709956</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="chore: restructure project folders and module configuration">
+      <option name="closed" value="true" />
+      <created>1790921893622</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1790921893622</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +181,8 @@
     <MESSAGE value="feat: add in-memory data store with sample data" />
     <MESSAGE value="feat: add scene navigation and alert utilities" />
     <MESSAGE value="feat: add input validation helpers" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add input validation helpers" />
+    <MESSAGE value="chore: restructure project folders and module configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: restructure project folders and module configuration" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
