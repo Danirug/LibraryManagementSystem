@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox styleClass="page" stylesheets="@../css/style.css"
+      xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.library.BorrowingHistoryController">
+   <children>
+      <HBox alignment="CENTER_LEFT" spacing="10.0">
+         <children>
+            <Label styleClass="section-title" text="All Borrowing Records" />
+            <Pane HBox.hgrow="ALWAYS" />
+            <ComboBox fx:id="cmbStatusFilter" prefWidth="140.0" />
+            <TextField fx:id="txtSearch" prefWidth="260.0" promptText="Search member or book" />
+         </children>
+      </HBox>
+      <TableView fx:id="tblHistory" VBox.vgrow="ALWAYS">
+        <columns>
+          <TableColumn fx:id="colMemberId" text="Member ID" />
+          <TableColumn fx:id="colBookTitle" text="Book Title" />
+          <TableColumn fx:id="colIssueDate" text="Issue Date" />
+          <TableColumn fx:id="colDueDate" text="Due Date" />
+          <TableColumn fx:id="colReturnDate" text="Return Date" />
+          <TableColumn fx:id="colStatus" text="Status" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <Label fx:id="lblRecordCount" styleClass="muted-label" />
+   </children>
+</VBox>

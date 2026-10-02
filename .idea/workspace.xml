@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59f7a50c-49b6-4202-9647-2b97b1d83c46" name="Changes" comment="style: improve login page layout and input styling">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="59f7a50c-49b6-4202-9647-2b97b1d83c46" name="Changes" comment="feat: implement issue book page">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/BorrowingHistoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/BorrowingHistoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/ReturnBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/ReturnBookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/StatusCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/StatusCell.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +85,7 @@
       <updated>1790832248849</updated>
       <workItem from="1790832249871" duration="973000" />
       <workItem from="1790833326432" duration="8452000" />
-      <workItem from="1790922892401" duration="315000" />
+      <workItem from="1790922892401" duration="2421000" />
     </task>
     <task id="LOCAL-00001" summary="chore: initialize JavaFX Maven project.">
       <option name="closed" value="true" />
@@ -172,7 +175,71 @@
       <option name="project" value="LOCAL" />
       <updated>1790923171817</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update .gitignore">
+      <option name="closed" value="true" />
+      <created>1790923234341</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1790923234341</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: add dashboard statistics cards">
+      <option name="closed" value="true" />
+      <created>1790924025469</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1790924025469</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: implement add book page UI">
+      <option name="closed" value="true" />
+      <created>1790925321885</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1790925321885</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: add validation to add book form">
+      <option name="closed" value="true" />
+      <created>1790925418912</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1790925418912</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: implement add member page with validation">
+      <option name="closed" value="true" />
+      <created>1790925472953</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1790925472953</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: add member table view with search">
+      <option name="closed" value="true" />
+      <created>1790925495132</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1790925495132</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: add edit and delete member actions">
+      <option name="closed" value="true" />
+      <created>1790925541616</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1790925541616</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: implement issue book page">
+      <option name="closed" value="true" />
+      <created>1790925688463</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1790925688463</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +266,15 @@
     <MESSAGE value="chore: restructure project folders and module configuration" />
     <MESSAGE value="feat: add dashboard layout with sidebar navigation" />
     <MESSAGE value="style: improve login page layout and input styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="style: improve login page layout and input styling" />
+    <MESSAGE value="update .gitignore" />
+    <MESSAGE value="feat: add dashboard statistics cards" />
+    <MESSAGE value="feat: implement add book page UI" />
+    <MESSAGE value="feat: add validation to add book form" />
+    <MESSAGE value="feat: implement add member page with validation" />
+    <MESSAGE value="feat: add member table view with search" />
+    <MESSAGE value="feat: add edit and delete member actions" />
+    <MESSAGE value="feat: implement issue book page" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implement issue book page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
