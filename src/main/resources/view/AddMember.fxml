@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox styleClass="page" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.library.AddMemberController">
+   <children>
+      <Label graphicTextGap="6.0" prefHeight="23.0" prefWidth="147.0" styleClass="section-title" text="Member Details" />
+      <VBox spacing="20.0" styleClass="form-card">
+         <children>
+            <GridPane hgap="16.0" vgap="14.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="160.0" />
+                <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label styleClass="form-label" text="Member ID" />
+                  <TextField fx:id="txtMemberId" promptText="e.g. M005" GridPane.columnIndex="1" />
+                  <Label styleClass="form-label" text="Full Name" GridPane.rowIndex="1" />
+                  <TextField fx:id="txtFullName" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Label styleClass="form-label" text="Email" GridPane.rowIndex="2" />
+                  <TextField fx:id="txtEmail" promptText="name@example.com" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Label styleClass="form-label" text="Phone Number" GridPane.rowIndex="3" />
+                  <TextField fx:id="txtPhone" promptText="e.g. 0711234567" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Label styleClass="form-label" text="Address" GridPane.rowIndex="4" />
+                  <TextArea fx:id="txtAddress" prefRowCount="3" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+               </children>
+            </GridPane>
+            <HBox alignment="CENTER_RIGHT" spacing="10.0">
+               <children>
+                  <Button fx:id="btnClear" onAction="#handleClear" styleClass="secondary-button" text="Clear" />
+                  <Button fx:id="btnRegister" onAction="#handleRegister" styleClass="primary-button" text="Register Member" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</VBox>
