@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox styleClass="page" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.library.AddMemberController">
+<VBox styleClass="page" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.library.controller.AddMemberController">
    <children>
       <Label graphicTextGap="6.0" prefHeight="23.0" prefWidth="147.0" styleClass="section-title" text="Member Details" />
       <VBox spacing="20.0" styleClass="form-card">

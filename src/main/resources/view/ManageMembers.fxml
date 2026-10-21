@@ -14,7 +14,7 @@
 
 <VBox styleClass="page" stylesheets="@../css/style.css"
       xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.library.ManageMembersController">
+      fx:controller="com.library.controller.ManageMembersController">
    <children>
       <HBox alignment="CENTER_LEFT" spacing="10.0">
          <children>

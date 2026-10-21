@@ -12,7 +12,7 @@
 
 <VBox styleClass="page" stylesheets="@../css/style.css"
       xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.library.AddBookController">
+      fx:controller="com.library.controller.AddBookController">
    <children>
       <Label styleClass="section-title" text="Book Details" />
       <VBox spacing="20.0" styleClass="form-card">

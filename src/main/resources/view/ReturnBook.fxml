@@ -15,7 +15,7 @@
 
 <VBox styleClass="page" stylesheets="@../css/style.css"
       xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.library.ReturnBookController">
+      fx:controller="com.library.controller.ReturnBookController">
    <children>
       <HBox alignment="CENTER_LEFT" spacing="10.0">
          <children>

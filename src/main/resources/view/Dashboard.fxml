@@ -10,7 +10,7 @@
 
 <BorderPane prefHeight="720.0" prefWidth="1150.0" stylesheets="@../css/style.css"
             xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.library.DashboardController">
+            fx:controller="com.library.controller.DashboardController">
    <left>
       <VBox fx:id="sidebar" prefWidth="220.0" styleClass="sidebar">
          <children>

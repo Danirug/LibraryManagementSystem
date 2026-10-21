@@ -11,7 +11,7 @@
 
 <VBox styleClass="page" stylesheets="@../css/style.css"
       xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.library.BorrowingHistoryController">
+      fx:controller="com.library.controller.BorrowingHistoryController">
    <children>
       <HBox alignment="CENTER_LEFT" spacing="10.0">
          <children>
