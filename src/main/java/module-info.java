@@ -1,10 +1,12 @@
 module com.library {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.sql;
 
-    // FXMLLoader (controllers) and TableView's PropertyValueFactory (model getters)
-    // both need reflective access to this package
-    opens com.library to javafx.fxml, javafx.base;
+    // FXMLLoader needs reflective access to the controllers
+    opens com.library.controller to javafx.fxml;
+    // TableView's PropertyValueFactory reads the model getters by reflection
+    opens com.library.model to javafx.base;
 
     exports com.library;
 }
